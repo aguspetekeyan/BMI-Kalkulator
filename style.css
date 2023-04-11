@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.container p {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 20px;
+    
+}
+input[type="number"] {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 300px;
+    font-size: 16px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #a7aea7;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color:aqua;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.underweight {
+    color: blue;
+}
+.normal {
+    color: green;
+}
+.overweight {
+    color: orange;
+}
+.obesity {
+    color: red;
+}

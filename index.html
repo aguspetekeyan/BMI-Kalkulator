@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perkiraan Lemak Tubuh</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+		<h1>BMI Calculator</h1>
+        <p>BMI atau Body Mass Index adalah perkiraan lemak tubuh yang didasarkan pada tinggi dan berat badan.
+           Dengan melakukan perhitungan BMI, Anda dapat memperkirakan apakah berat badan yang dimiliki sudah tergolong normal, kurus (underweight), atau obesitas (overweight)</p>
+		<label for="weight">Berat Badan (KG):</label>
+		<input type="number" id="weight" placeholder="Masukkan berat badan...">
+		<label for="height">Tinggi Badan (CM):</label>
+		<input type="number" id="height" placeholder="Masukkan tinggi badan...">
+		<button onclick="calculateBMI()">Hitung</button>
+		<div class="result" id="result"></div>
+	</div>
+</body>
+</html>
